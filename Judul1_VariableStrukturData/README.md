@@ -69,3 +69,6 @@ baris 41 merupakan pemanggilan fungsi main di baris 11.
 
 # Output
 
+<img width="541" height="229" alt="image" src="https://github.com/user-attachments/assets/84c6ac47-05ad-401f-9d03-96058a5b83d5" />
+
+
