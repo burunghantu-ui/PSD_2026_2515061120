@@ -44,7 +44,7 @@ baris 26 merupakan looping while dimana logika didalamnya baris 25-35 akan terus
 
 baris 27 juga eksekusi berulang baris 28-32 yang berupa blok exception handling, dimana dalam try (28) baris 29 akan meminta input user, jika input tidak berupa angka atau integer maka baris 30 akan dilewati dan exception(31) akan di eksekusi dimana didalamnya, baris 32 akan ditampilkan dan akan kembali mengeksekusi baris 28-32 terus menerus hingga input user  berupa integer dan akhirnya dapat mengeksekusi baris 30 yaitu break.
 
-<img width="907" height="49" alt="image" src="https://github.com/user-attachments/assets/048d6cfb-2b2d-48ca-a597-7cdde90e6d66" />
+<img width="939" height="57" alt="image" src="https://github.com/user-attachments/assets/6e171073-8e3c-4a40-a029-204834b32943" />
 
 baris 33 merupakan percabangan dimana jika nilai input user sama atu tidak melebihi jumlah kapasitas array maka akan menampilkan nomor antrian milik pasien, dimana nomor pasien disini adalah nomor indeks nilai array yang di input user di kurangi 1, lalu perulangan while pada baris 26 akan dihentikan di sintaks break.
 
@@ -71,4 +71,37 @@ baris 41 merupakan pemanggilan fungsi main di baris 11.
 
 <img width="541" height="229" alt="image" src="https://github.com/user-attachments/assets/84c6ac47-05ad-401f-9d03-96058a5b83d5" />
 
+merupakan output yang keluar dari baris 1-3 dan 14 yang menampilkan fungsi menu di baris 5, lalu output yang meminta input 'pilihan' berasal dari sorce code baris 15 
+
+<img width="547" height="184" alt="image" src="https://github.com/user-attachments/assets/8b52090b-e642-4b27-b463-08c4ccdaf1ac" />
+
+mrupakan output yang dihasilkan ketika user memasukkan input angka 1 yang mana memenuhi kondisi baris 20 akan mengeksekusi baris baris 20 dan akan menampilkan perulangan dari baris 21 yang meminta input ke user lalu menampilkan baris 22
+
+<img width="316" height="147" alt="image" src="https://github.com/user-attachments/assets/c554abb1-4f8a-46c4-81be-f945794a2e66" />
+
+merupakan output ketika user memasukkan input 2 yang mana akan memenuhi kondisi di baris 23 menampilkan perulangan dari baris 24
+
+<img width="460" height="105" alt="image" src="https://github.com/user-attachments/assets/0dbbed1a-3a1d-40b3-8c72-21dee7c55d9c" />
+
+merupakan output ketika user memasukkan input 3 yang mana akan memenuhi kondisi di baris 25 dan meminta input kepada user, dimana output ini berasal dari baris 29, setelah memasukkan input, selanjutnya akan menampilkan source code dari baris 33 sesuai dengan input dari user.
+
+<img width="460" height="50" alt="image" src="https://github.com/user-attachments/assets/efa7eee5-5191-47f5-830c-037ef808effb" />
+
+jika user memasukkan yang bukan angka atau integer maka akan menampilkan output yang berasal dari source code baris 32 yang merupakan blok exception handling dan akan kembali menampilkan permintaan input dari baris 29 
+
+<img width="445" height="43" alt="image" src="https://github.com/user-attachments/assets/50749835-5467-4d19-9d9e-7dfec3313205" />
+
+output ketika user memasukkan angka lebih dari kapasitas jumlah data array yang ada
+
+<img width="381" height="196" alt="image" src="https://github.com/user-attachments/assets/91021448-1358-4a1d-8ec0-db35026f2f57" />
+
+ketika user memasukkan input 'pilihan' lebih dari 4 atau tidak sesuai dengan pilihan yang ada maka akan menampilkan baris 38 dan kembali meminta input kepada user
+
+<img width="266" height="60" alt="image" src="https://github.com/user-attachments/assets/ca1eeb37-03ff-4c56-9a8a-68df4ce44725" />
+
+dan ketika user memasukkan pilihan bukan berupa angka akan mengeluarkan output dari baris 18 yang merupakan blok exception handling
+
+# Link YouTube
+
+untuk penjelasan lebih lengkap dapat dilihat pada video berikut
 
