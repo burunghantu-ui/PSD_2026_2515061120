@@ -46,3 +46,20 @@ baris 19, terdapat perulangan for yang digunakan untuk mengulang kode baris 20 s
 
 baris 20, terdapat percabangan if dimana jika nilai array m indeks ke i lebih kecil dari nilai array m indeks ke i+1 maka akan memanggil fungsi tukar untuk menukarkan nilai elemen dari dua indeks tersebut. 
 
+<img width="535" height="215" alt="image" src="https://github.com/user-attachments/assets/f0f9604e-8a74-426d-9cc5-085ca9c78bdb" />
+
+baris 23, terdapat fungsi utama yang berisi logika inti dari program, dimana didalamnya mencakup baris 24-50
+
+baris 24, berisi blok try yang akan memastikan input user di baris 25 sesuai yaitu berupa angka
+
+baris 25, terdapat variavel N yang akan meminta jumlah pasien kepada user dan disimpan ke variabel N
+
+baris 26, terdapat blok exception yang akan mengeksekusi baris 27-28 yaitu menampilkan "Input tidak valid!" dan di baris 28 akan menampilkan ulang baris 25, hal ini akan terus dilakukan hingga user memasukkan input berupa integer dengan benar 
+
+baris 29, 30, 31 terdapat variabel array kosong, yaitu variabel arr, m dan d, arr digunakan untuk menampung angka lebih kecil dari 50 dan lebih besar dari 60. lalu variabel m akan menampung angka lebih besar sama dengan 50 dan lebih kecil sama dengan 60, dan d menampung keseluruhan nilai sebelum di urutkan 
+
+<img width="780" height="454" alt="image" src="https://github.com/user-attachments/assets/03a3fdc4-930d-454b-8b0f-3255e4f2b390" />
+
+baris 32, akan menampilkan "Masukkan umur pasien:"
+
+baris 
