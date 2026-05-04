@@ -62,4 +62,8 @@ baris 29, 30, 31 terdapat variabel array kosong, yaitu variabel arr, m dan d, ar
 
 baris 32, akan menampilkan "Masukkan umur pasien:"
 
-baris 33, terdapat perulangan for sebanyak jumlah pasien 
+baris 33, terdapat perulangan for untuk meminta input umur setiap pasien kepada user sebanyak jumlah pasien, dimnana perulangan ini mencakup baris 34-45
+
+baris 34, perulangan while untuk mengulangi blok try-exception, untuk memastikan nput user di baris 36 berupa integer, sehiigga ketika in[ut tidak sesuai, program dapat terus menampilkan permintaan input kembali hingga user memasukkan input yang sesuai dengan 
+
+
