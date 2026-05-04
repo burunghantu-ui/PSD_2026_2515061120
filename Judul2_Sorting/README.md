@@ -94,3 +94,17 @@ baris 53 merupakan pengecekan kondisi untuk mengeksekusi baris 41 apakah file se
 
 baris 54 merupakan pemanggilan fungsi main di baris 23.
 
+# Output
+<img width="547" height="101" alt="image" src="https://github.com/user-attachments/assets/10f5c37e-920a-44bf-9143-e45b774f05eb" />
+
+ketika program pertama kali dijalankan akan menampilkan judul program dari source code baris 1-3 dan meminta input jumlah user yang akan di sorting umurnya yang berasal dari source code baris 25
+
+<img width="269" height="131" alt="image" src="https://github.com/user-attachments/assets/88f3847a-0cef-4226-bccb-a49f87f5359a" />
+
+setelah memasukkan jumlah pasien, user akan diminta memasukkan umur masing masing pasien sebanyak jumlah pasien yang dimaksukkan
+
+<img width="745" height="49" alt="image" src="https://github.com/user-attachments/assets/9f6e011b-177d-44b3-a965-36cfc0567653" />
+
+ketika user telah memasukkan seluruh umur pasien, maka akan ditampilkan urutan pasien sebelum di urutkan, dan urutan pasien setelah diurutkan
+
+# Link Penjelasan YouTube
