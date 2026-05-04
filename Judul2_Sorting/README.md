@@ -88,4 +88,9 @@ baris 49 akan menampilkan urutan pasien berdasarkan prioritas umur
 
 baris 50 terdapat perulangan for yang digunakan untuk menampilakan array p satu persatu
 
+<img width="345" height="58" alt="image" src="https://github.com/user-attachments/assets/7b343db5-3923-4406-9068-cfb0c45285e4" />
+
+baris 53 merupakan pengecekan kondisi untuk mengeksekusi baris 41 apakah file sedang di jalankan secara langsung bukan di impor.
+
+baris 54 merupakan pemanggilan fungsi main di baris 23.
 
