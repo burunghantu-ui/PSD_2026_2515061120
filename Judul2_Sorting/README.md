@@ -62,4 +62,4 @@ baris 29, 30, 31 terdapat variabel array kosong, yaitu variabel arr, m dan d, ar
 
 baris 32, akan menampilkan "Masukkan umur pasien:"
 
-baris 
+baris 33, terdapat perulangan for sebanyak jumlah pasien 
