@@ -64,6 +64,28 @@ baris 32, akan menampilkan "Masukkan umur pasien:"
 
 baris 33, terdapat perulangan for untuk meminta input umur setiap pasien kepada user sebanyak jumlah pasien, dimnana perulangan ini mencakup baris 34-45
 
-baris 34, perulangan while untuk mengulangi blok try-exception, untuk memastikan nput user di baris 36 berupa integer, sehiigga ketika in[ut tidak sesuai, program dapat terus menampilkan permintaan input kembali hingga user memasukkan input yang sesuai dengan 
+baris 34, perulangan while untuk mengulangi blok try-exception, untuk memastikan nput user di baris 36 berupa integer, sehiigga ketika in[ut tidak sesuai, program dapat terus menampilkan permintaan input kembali hingga user memasukkan input yang sesuai, yaitu berupa integer
+
+baris 35 berisi blok try dimana ketika input umur user berupa integer maka akan mengeksekusi baris berikutnya yitu baris 37
+
+baris 36, terdapat variabel permintaan untuk memasukkan input kepada user dan di simpan di variabel umur yang akan menyimpan nilai input user sementara sebelum dipindahkan ke array 
+
+baris 37 terdapat percabangan if dengan kondisi ketika umur bernilai lebih besar sama dengan 50 dan lebih kecil sama dengan 60 maka nilai umur akan dimasukkan ke array m di baris 38, dan array d di baris 39
+
+baris 40 terdapat lanjutan dari percabangan if pada baris 37 dimana ketika kondisi pada percabangan tersebut tidak terpenuhi maka akan akan dieksekusi dan mengeksekusi baris 41 yang menambahkan nilai umur ke array arr dan baris 42 yang akan menambahkan nilai umur ke array d
+
+baris 43, merupakkan penghentian perulangan pada baris 34, yang mana menandakan tidak perlu permintaan ulang untuk memasukkan umur dikarenakan input sebelumnya telah sesuai
+
+baris 44 terdapat baris blok exception yang akan dieksekusi dan mengeksekusi baris 45 yang menampilkan "Input tidak valid, silakan masukkan angka!" ketika input yang diterima di baris 36 tidak berupa integer, lalu setelahnya akan meminta user untuk memasukkan input lagi hingga input sesuai
+
+baris 46 akan menampilkan urutan pasien yang belum diurutkan sesuai standar yang tersimpan di array d
+
+baris 47 terdapat pemanggilan fungsi selection sort yang ada di baris 11
+
+baris 48 terdapat variabel p yang akan menggabungkan array arr dan array m menjadi satu kesatuan array setelah disorting
+
+baris 49 akan menampilkan urutan pasien berdasarkan prioritas umur
+
+baris 50 terdapat perulangan for yang digunakan untuk menampilakan array p satu persatu
 
 
