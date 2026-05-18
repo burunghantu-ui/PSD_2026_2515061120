@@ -2,6 +2,7 @@
 ## Deskripsi Singkat
 Program ini merupakan program singkat yang mengatur administrasi klinik dengan mendata antrian pelayanan rumah sakit, dimana program ini dapat menambahkan pasien ke antrian, dan ketika pasien telah dilayani maka nama pasien tersebut akan dipindahkan ke dalam riwayat antrian pasien, karena terdapat kemungkinan terjadi kesalahan teknis dimana admin terburu buru memasukkan nama pasien yang tidak sengaja melewatkan gilirannya untuk dilayani ke dalam riwayat antrian pasien, maka disediakan fitur 'undo' untuk mengeluarkan nama pasien dari riwayat dan otomatis menempatkan pasien ke antrian terakhir, mengingat arsip riwayat antrian yang harus di perbarui tiap harinya maka dibuat fitur 'clear all' untuk mengosongkan riwayat pasien lama dan menggantinya dengan yang baru pada hari itu.
 # Source Code
+
 <img width="380" height="102" alt="image" src="https://github.com/user-attachments/assets/fd7276d6-fdd8-4cb0-9cad-206df53f1368" />
 
 baris 1 terdapat deklarasi class Node 
@@ -70,4 +71,20 @@ baris 42, digunakan agar tampilan kalimat tidak bersambung dengan tampilan selan
 
 baris 44, terdapat deklarasi kelas riwayat pasien yang akan menyimpan data riwayat pasien yang telah di layani, dimana dalam kelas ini terdapat berbagai fungsi yang dapat di gunakan pada data riwayat antrian tersebut.
 
-baris 45
+baris 45, terdapat fungsi init yang di dalamnya yaitu baris 46 terdapat pendeklarasian bahwa data teratas saat itu memiliki none node
+
+baris 48, terdapat fungsi is_empty dimana dibaris 49 dia akan mengembalikan nilai bahwa node teratas itu none, ketika node teratas saat itu memang none
+
+baris 51, terdapat fungsi pop yang mencakup baris 52-57, fungsi ini berfunngsi untuk menghiilangkan node atau nilai node teratas dari data
+
+baris 52, terdapat percabangan dengan kondisi jika antrian bernilai kosong (dengan memanggi fungsi is_empty) maka akan mengeksekusi baris 53,  yang akan menampilkan bahwa antrian (queue) kosong, yang man hal ini akan dikembalikan dengan return di baris 54.
+
+baris 55, terdapat variabel temp yang akan menyimpan sementara node teratas yang akan di hapus
+
+setelah menyimpan data tersebut maka node teratas riwayat akan di ganti dengan node teratas selanjutnya di baris 56.
+
+baris 57 merupakan perintah pengembalian nilai elemen yang tersimpan pada variabel temp pada saat itu 
+
+<img width="426" height="99" alt="image" src="https://github.com/user-attachments/assets/e96fe8f4-c167-4ed0-9628-9be2ab37f117" />
+
+baris 59, terd
