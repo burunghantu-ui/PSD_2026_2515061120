@@ -87,4 +87,132 @@ baris 57 merupakan perintah pengembalian nilai elemen yang tersimpan pada variab
 
 <img width="426" height="99" alt="image" src="https://github.com/user-attachments/assets/e96fe8f4-c167-4ed0-9628-9be2ab37f117" />
 
-baris 59, terd
+baris 59, terdapat fungsi push yang mencakup baris 60-62, dimana fungsi ini berguna untuk menambahkan elemen ke dalam riwayat
+
+baris 60 terdapat variabel new node yang mana memnaggil kelas Node yang sebagai node baru yang bervalue x
+
+baris 61, node selanjutnya dari new_node akan berubah menjadi node teratas dalam riwayat
+
+baris 62, akan menukar atau menggeser node baru (new_node) menjadi menjadi node teratas dalam riwayat
+
+<img width="422" height="78" alt="image" src="https://github.com/user-attachments/assets/bd3fa394-009e-4677-803b-4fcf1cacf4d0" />
+
+baris 64, terdapat fungsi clear yang mencakup baris 65-66, dimana fungsi ini berguna untuk mengosongkan data riwayat, cara kerja fungsi ini ada di baris 65, dimana node teratas akan di ubah menjadi none atau tidak terdapat elemen selanjutnya akan di tampilkan baris 66 yang berisi 'stack di kosongkan!'
+
+<img width="577" height="240" alt="image" src="https://github.com/user-attachments/assets/c2db2caf-228a-46c0-94f2-0fbd431e8b7c" />
+
+baris 68 terdapat deklarasi fungsi display yang digunakan untuk menampilkan seluruh elemen dalam riwayat, fungsi ini mencakup baris 69-77
+
+baris 69, terdapat percabangan dengan kondisi jika antrian bernilai kosong (dengan memanggi fungsi is_empty) maka akan mengeksekusi baris 70,  yang akan menampilkan bahwa antrian (stack) kosong, yang mana hal ini akan dikembalikan dengan return di baris 71.
+
+baris 72, terdapat perintah untuk menmapilkan "Isi riwayat (atas ke bawah): "
+
+baris 73 terdapaat variabel current yang digunakan untuk menyimpan sementara node teratas dalam riwayat.
+
+baris 74, terdapat perulangan while yang akan terus mengeksekusi baris 75-76 selama node current tidak kosong.
+
+baris 75 akan menampilkan nilai elemen dari node current saat itu selanjutnya di baris 76 node current akan diganti mmenjadi node selanjutnya dari node current saat itu
+
+baris 77, digunakan agar tampilan kalimat tidak bersambung dengan tampilan selanjutnya.
+
+<img width="490" height="125" alt="image" src="https://github.com/user-attachments/assets/5cabb946-3861-4d23-805a-c004b1a2ba3c" />
+
+baris 79-83, terdapat fungsi menu yang berisi daftar pilihan yang bisa di lakukan dalam program
+
+<img width="533" height="124" alt="image" src="https://github.com/user-attachments/assets/70844ddf-1b82-44a4-b587-847fb87db579" />
+
+baris 85-89 terdapat menuantri yang berisi daftar apa saja yang bisa dilakukan pada antrian
+
+<img width="404" height="124" alt="image" src="https://github.com/user-attachments/assets/d5a74179-3283-49ff-8921-03e33c97451b" />
+
+baris 91-95 terdapat fungsi riwayat antrian dimana berisi daftar pilihan yang bisa di lakukan pada riwayat antrian pasien
+
+<img width="779" height="153" alt="image" src="https://github.com/user-attachments/assets/5219dad5-6874-40e4-b9bb-8d3ec47569f5" />
+
+baris 97, terdapat fungsi utama yang mmenjalankan logika utama dari program ini
+
+baris 98 terdapat variabel antri yang menyimpan nilai, node dan keseluruhan dari kelas Antrian pada baris 6
+
+baris 99 terdapat variabel riwayat yang menyimpan nilai, node dan keseluruhan dari kelas riwayatpasien pada baris 44
+
+baris 100-102 berfungsi untuk menampilkan judul program ketika program pertama kali di jalankan 
+
+<img width="537" height="201" alt="image" src="https://github.com/user-attachments/assets/2c07acde-f297-44aa-8c37-c19a4d03a7df" />
+
+baris 104, terdapat perulangan while yang akan terus mengulang baris 105-162, yang mana hanya akan berhenti ketika suatu kondisi terpenuhi dan memicu break, dimana baris 105 terdapat pemanggilan fungsi menu yaitu daftra pilihan yang bisa di jalan kan oleh program
+
+baris 106, terdapat perulangan while yang akan terus mengulang baris 107-132, yang mana hanya akan berhenti ketika suatu kondisi terpenuhi dan memicu break
+
+baris 107 terdapat exception handling yang mana digunakan untuk memastikan tipe data input user ke variabel pilihan di baris 108 sesuai dengan yang diinginkan yaitu integer lalu memicu baris 109 untuk menghentikan perulangan yang disebabkan jika user memasukkan sebaliknya, lalu melanjutkan ke kode baris selanjutnya
+
+baris 110 terdapat exception ValueError yang akan dieksekusi ketika input user di baris 108 bukan integer dan mengeksekusi baris 111 yang menampilkan 'input tidak valid!' lalu kembali meminta user melakukan input ulang, hal ini akan terus dilakukan berulang hingga input user berupa integer
+
+<img width="550" height="189" alt="image" src="https://github.com/user-attachments/assets/384bcd23-a10f-4646-a08c-ca33ac136e0b" />
+
+baris 112 terdapat percabangan pengondisian dimana ketika inpu user di baris 108 sama dengan 1 maka akan mengeksekusi baris 113-132
+
+baris 113, terdapat perulangan while yang akan terus mengulang baris 114-132, yang mana hanya akan berhenti ketika suatu kondisi terpenuhi dan memicu break
+
+baris 114 terdapat pemanggilan menu antri yang akan menampilkan menu pilihan
+
+baris 115 terdapat exception handling yang mana digunakan untuk memastikan tipe data input user ke variabel pilih di baris 116 sesuai dengan yang diinginkan yaitu integer lalu melanjutkan ke kode baris selanjutnya
+
+baris 117 terdapat exception ValueError yang akan dieksekusi ketika input user di baris 116 bukan integer dan mengeksekusi baris 118 yang menampilkan 'input tidak valid!' lalu kembali meminta user melakukan input ulang, di baris 119, merupakan pemicu untuk terus dilakukannya permintaan input berulang hingga input user berupa integer
+
+<img width="652" height="316" alt="image" src="https://github.com/user-attachments/assets/209d50ce-95ee-495a-93e1-13343cea0c17" />
+
+baris 120, terdapat percabangan kembali dimana ketika input user di baris 116 sama dengan 1 maka akan mengeksekusi baris 121-122, dimana baris 121 akan meminta user memasukkan nama pasien lalu dimasukkan ke dalam antrian dengan menggunakan fungsi tambah di baris 122
+
+baris 123 merupakan kelanjutan dari baris 120 dimana ketika kondisi sebelumnya tidak terpenuhi dan input user ternyata sama dengan 2 maka akan mengeksekusi baris 124-126, dimana pada baris 124 terdapat variabel yang akan menyimpan elemen terdepan sementara dengan menggunakan fungsi hapus, lalu pada baris 125 nilai elemen ini akan di masukkan ke dalam riwayat dengan menggunakan fungsi push. lalu baris 126 akan memeberi tahu pasien dengan antrian terdepan telah di layani
+
+<img width="353" height="52" alt="image" src="https://github.com/user-attachments/assets/013556e6-c277-4aea-a502-3cba874ef573" />
+
+baris 127 terdapat lanjutan percabanga 120 dimana ketika input user di baris 116 sama dengan 3 maka akan mengeksekusi baris 128 yang mana akan menampilkan seluruh elemen dalam antrian dengan menggunakan fungsi display
+
+<img width="501" height="108" alt="image" src="https://github.com/user-attachments/assets/6d0b37e1-4c76-42cf-86b8-67270e536af6" />
+
+baris 129, merupan kondisi dimana ketika input user pada baris 116 sama dengan 4 maka akan mengeksekusi baris 130 yang terdaoat break dimana akan menghentikkan perulangan while di baris 113
+
+baris 131 merupakan kondisi alternatif ketika input user baris 116 tidak memenuhi seluruh kondisi sebelumnya maka akan di eksekusi baris 132 yang menampilkan "input tidak valid!" lalu kembali mengeksekusi baris 114-132.
+
+<img width="508" height="194" alt="image" src="https://github.com/user-attachments/assets/cb62639b-7e7e-4348-ac34-b8ed1b244a0e" />
+
+baris 134 merupakan lanjutan percabangan di baris 112, yang mana ketika inout user di baris 108 sama dengan 2 maka baris 135-153 akan dieksekusi
+
+baris 135, terdapat perulangan while yang akan terus mengulang baris 136-153, yang mana hanya akan berhenti ketika suatu kondisi terpenuhi dan memicu break
+
+baris 136 terdapat pemanggilan menu riwayatantrian yang akan menampilkan menu pilihan
+
+baris 137 terdapat exception handling yang mana digunakan untuk memastikan tipe data input user ke variabel pilih di baris 138 sesuai dengan yang diinginkan yaitu integer lalu melanjutkan ke kode baris selanjutnya
+
+baris 139 terdapat exception ValueError yang akan dieksekusi ketika input user di baris 138 bukan integer dan mengeksekusi baris 140 yang menampilkan 'input tidak valid!' lalu kembali meminta user melakukan input ulang, di baris 141, merupakan pemicu untuk terus dilakukannya permintaan input berulang hingga input user berupa integer
+
+<img width="732" height="148" alt="image" src="https://github.com/user-attachments/assets/2ea94bc6-e4ab-4d03-ac94-83fa848a8b00" />
+
+baris 142 terdapat percabangan dengan kondisi jika input user di baris 138 sama dengan 1 maka baris 143 akan dieksekusi yaitu menampilkan seluruh elemen riwayat menggunakan fungsi display
+
+baris 144 terdapat kelanjutan kondisi percabangan baris 142 yang mana ketika input user di baris 138 sama dengan 2 maka akan mengeksekusi baris 145-147, dimana pada baris 145 terdapat variabel yang akan menyimpan elemen teratas sementara dengan menggunakan fungsi pop, lalu pada baris 146, nilai elemen ini akan di masukkan ke dalam riwayat dengan menggunakan fungsi tambah. lalu baris 147 akan memeberi tahu "riwayat pasien {b} berhasil di batalkan"
+
+<img width="526" height="155" alt="image" src="https://github.com/user-attachments/assets/12c66863-5c2c-4857-ae40-30e154d7823f" />
+
+baris 148, merupakan lanjutan kondisi dimana ketika input user di baris 138 sama dengan 3 maka akan mengeksekusi baris 149 yang mana akan mengosongkan riwayat pasien menggunakan fungsi clear
+
+baris 150 terdapat lanjutan kondisi kembali dimana ketika input user dibaris 138 sama dengan 4 maka akan mengeksekusi baris 151 yang terdapat break dimana akan menghentikkan perulangan while di baris 135
+
+baris 152 merupakan kondisi alternatif ketika input user baris 138 tidak memenuhi seluruh kondisi sebelumnya maka akan di eksekusi baris 153 yang menampilkan "input tidak valid!" lalu kembali mengeksekusi baris 136-153.
+
+<img width="365" height="74" alt="image" src="https://github.com/user-attachments/assets/3079a7f8-6293-4717-af0c-e9c2cc38f981" />
+
+baris 155 merupakan lanjutan percabangan baris 112, dimana ketika input user di baris 108 sama dengan 3 maka baris 156-157 akan dieksekusi dimana baris 156 akan menampilkan seluruh elemen antri saat ini menggunakan fungsi display dan baris 157 akan menampilkan seluruh elemen riwayat saat ini menggunakan fungsi display
+
+<img width="451" height="97" alt="image" src="https://github.com/user-attachments/assets/bf54207e-62a6-4efc-879f-af7622cdb3b0" />
+
+baris 159 terdapat lanjutan kondisi dimana ketika input user di baris 108 sama dengan 4 maka maka akan mengeksekusi baris 160 yang terdapat break dimana akan menghentikkan perulangan while di baris 104
+
+baris 161 merupakan kondisi alternatif ketika input user baris 108 tidak memenuhi seluruh kondisi sebelumnya maka akan di eksekusi baris 162 yang menampilkan "input tidak valid!" lalu kembali mengeksekusi baris 105-162.
+
+<img width="133" height="32" alt="image" src="https://github.com/user-attachments/assets/3330be28-5f04-4246-b354-026085d6cc38" />
+
+baris 164 terdapat pemanggilan fungsi menu yang merupakan logika utama program
+
+# Output
