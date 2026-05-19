@@ -240,7 +240,7 @@ pada menu ini ketika user memilih nomor 1 maka program akan meminta user untuk m
 
 ketika user memasukkan input angka 2 maka pasien yang berada di barisan terepan akan dilayani dan otomatis akan di masukkan ke riwayat antrian pasien 
 
-<img width="441" height="155" alt="image" src="https://github.com/user-attachments/assets/eaeec0b8-57de-4597-b37c-c6698f03d585" />
+<img width="337" height="139" alt="image" src="https://github.com/user-attachments/assets/7ece0358-674b-4cce-9266-6dc4828d88b3" />
 
 ketika user memasukkan angka 3 maka akan menampilkan antrian saat itu
 
@@ -252,15 +252,15 @@ ketika user memasukkan angka 4 maka program akan keluar dari perulangan program 
 
 dan ketika user memasukkan angka 2 pada menu ini maka user akan dialihkan ke program antrian pasien, dimana juga akan menampilkan menu yang bisa dipilih oleh user terkait ariwayt tersebut
 
-<img width="360" height="141" alt="image" src="https://github.com/user-attachments/assets/2b0a2b7d-2e47-4eac-9a5b-0651aeba3998" />
+<img width="494" height="154" alt="image" src="https://github.com/user-attachments/assets/e17e89a8-9348-4e94-b80f-e1734f9d4da6" />
 
 dalam program riwayat ketika user memilih nomor 1 maka akan diperlihatkan riwayat antrian pasien pada saat itu, lalu kembali meminta user untuk memilih aksi selanjutnya 
 
-<img width="418" height="152" alt="image" src="https://github.com/user-attachments/assets/589460ee-08b7-45a3-8331-23fdd20c8bbe" />
+<img width="388" height="141" alt="image" src="https://github.com/user-attachments/assets/80a0b707-e161-4463-a16a-c18379332707" />
 
-lalu ketika user memilih nomor 2 maka riwayat antrian terakhir akan di batalkan dan dikembalikan ke antrin paling belakang
+lalu ketika user memilih nomor 2 maka riwayat antrian terakhir akan di batalkan dan dikembalikan ke antrian paling belakang
 
-<img width="210" height="148" alt="image" src="https://github.com/user-attachments/assets/57f1809e-e421-4bb2-8b7d-ddd789b2e527" />
+<img width="213" height="150" alt="image" src="https://github.com/user-attachments/assets/65bafd9d-0705-4ade-a98f-9efeb8b0f66f" />
 
 ketika user memilih nomor 3 maka riwayat pasien pada saat itu akan di kosongkan 
 
@@ -268,10 +268,20 @@ ketika user memilih nomor 3 maka riwayat pasien pada saat itu akan di kosongkan
 
 ketika user memilih no 4 maka program riwayat akan di hentikan dan user akan di kembalikan ke program atau menu awal, dan meminta input menu utama kembali kepada user
 
-<img width="475" height="161" alt="image" src="https://github.com/user-attachments/assets/a2785f6f-d4ef-499a-a373-7d2c4f5d4506" />
+<img width="300" height="164" alt="image" src="https://github.com/user-attachments/assets/abd6332c-e299-4493-87f5-587b2b329176" />
 
 pada menu utama ketika user memilih nomor 3 maka akan menampilkan seluruh antrian saat itu serta riwayat antrian pasien pada saat itu
 
 <img width="480" height="135" alt="image" src="https://github.com/user-attachments/assets/ce2da89c-9cf7-41d4-a04c-8bb505e3fa6d" />
 
 ketika user memilih angka 4 maka program utama akan selsesai 
+
+<img width="316" height="279" alt="image" src="https://github.com/user-attachments/assets/edae2bb9-cfe8-4a21-8839-dd1155ce3ab2" />
+
+ketika input yang dimasukkan user melebihi atau tidak didalam pilihan yang tersedia maka akan menampilkan pemberitahuan bahwa output tidak valid dan kembali menampilkan menu dan permintaan input ulang
+
+<img width="264" height="153" alt="image" src="https://github.com/user-attachments/assets/9132e1b2-4c03-4d6a-bbe7-e84a7ff91020" />
+
+dan ketika user memasukkan input selain angka maka akan menampilkan pemberitahuan bahwa input tidak valid dan meminta ulang masukkan input kepada user
+
+# Link YouTube
