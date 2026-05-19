@@ -41,7 +41,7 @@ baris 19, merupakan kelanjutan dari baris 17, dimana ketika kondisi baris 17 tid
 
 baris 20, merupakan pergantian value index selanjutanya dari antrian paling belakang dengan value new_node, dan baris 21 merupakan pergantian value antrian paling belakang dengan value new node juga
 
-<img width="514" height="219" alt="image" src="https://github.com/user-attachments/assets/5dff184d-8043-4fc8-af27-a563bee2e42b" />
+<img width="498" height="222" alt="image" src="https://github.com/user-attachments/assets/c6c3e329-4462-461f-b362-f6ff909ba053" />
 
 baris 23, terdapat fungsi hapus yang mencakup baris 24-31, yang mana funngsi ini akan di gunakan untuk menghilangkan elemen terdepan dari antrian
 
@@ -55,7 +55,7 @@ baris 29, terdapat percabangan di mana ketika elemen data terdepan bernilai none
 
 baris 31 merupakan perintah pengembalian nilai elemen yyang tersimpan pada variabel temp pada saat itu
 
-<img width="599" height="240" alt="image" src="https://github.com/user-attachments/assets/4cf4f62d-fa19-431c-a9d1-f5a24b816e3c" />
+<img width="469" height="248" alt="image" src="https://github.com/user-attachments/assets/4f6176d7-2d36-40c9-9ab5-dc6fb9403cfc" />
 
 baris 33 terdapat deklarasi fungsi display yang digunakan untuk menampilkan seluruh elemen dalam antrian, fungsi ini mencakup baris 34-42
 
@@ -77,7 +77,11 @@ baris 44, terdapat deklarasi kelas riwayat pasien yang akan menyimpan data riway
 
 baris 45, terdapat fungsi init yang di dalamnya yaitu baris 46 terdapat pendeklarasian bahwa data teratas saat itu memiliki none node
 
+<img width="418" height="57" alt="image" src="https://github.com/user-attachments/assets/f0aad16a-6f5d-446d-a68b-6454013bf137" />
+
 baris 48, terdapat fungsi is_empty dimana dibaris 49 dia akan mengembalikan nilai bahwa node teratas itu none, ketika node teratas saat itu memang none
+
+<img width="543" height="166" alt="image" src="https://github.com/user-attachments/assets/28a617fa-a404-40ed-ade2-d9c82a85fb5e" />
 
 baris 51, terdapat fungsi pop yang mencakup baris 52-57, fungsi ini berfunngsi untuk menghiilangkan node atau nilai node teratas dari data
 
@@ -99,11 +103,11 @@ baris 61, node selanjutnya dari new_node akan berubah menjadi node teratas dalam
 
 baris 62, akan menukar atau menggeser node baru (new_node) menjadi menjadi node teratas dalam riwayat
 
-<img width="422" height="78" alt="image" src="https://github.com/user-attachments/assets/bd3fa394-009e-4677-803b-4fcf1cacf4d0" />
+<img width="441" height="78" alt="image" src="https://github.com/user-attachments/assets/68c8152d-ad2c-409c-8e0d-99ae91a7c652" />
 
 baris 64, terdapat fungsi clear yang mencakup baris 65-66, dimana fungsi ini berguna untuk mengosongkan data riwayat, cara kerja fungsi ini ada di baris 65, dimana node teratas akan di ubah menjadi none atau tidak terdapat elemen selanjutnya akan di tampilkan baris 66 yang berisi 'stack di kosongkan!'
 
-<img width="577" height="240" alt="image" src="https://github.com/user-attachments/assets/c2db2caf-228a-46c0-94f2-0fbd431e8b7c" />
+<img width="743" height="242" alt="image" src="https://github.com/user-attachments/assets/2d80af76-996d-447b-a92e-fdcda2501287" />
 
 baris 68 terdapat deklarasi fungsi display yang digunakan untuk menampilkan seluruh elemen dalam riwayat, fungsi ini mencakup baris 69-77
 
