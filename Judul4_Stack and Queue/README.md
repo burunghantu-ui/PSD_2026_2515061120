@@ -61,7 +61,7 @@ baris 33 terdapat deklarasi fungsi display yang digunakan untuk menampilkan selu
 
 baris 34, terdapat percabangan dengan kondisi jika antrian bernilai kosong (dengan memanggi fungsi is_empty) maka akan mengeksekusi baris 35,  yang akan menampilkan bahwa antrian (queue) kosong, yang man hal ini akan dikembalikan dengan return di baris 36.
 
-baris 37, terdapat perintah untuk menmapilkan "Isi queue (depan ke belakang): "
+baris 37, terdapat perintah untuk menampilkan "Antrian: "
 
 baris 38 terdapaat variabel current yang digunakan untuk menyimpan sementara node terdepan dalam antrian .
 
