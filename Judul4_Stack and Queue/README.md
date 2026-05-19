@@ -220,3 +220,54 @@ baris 161 merupakan kondisi alternatif ketika input user baris 108 tidak memenuh
 baris 164 terdapat pemanggilan fungsi menu yang merupakan logika utama program
 
 # Output
+<img width="543" height="206" alt="image" src="https://github.com/user-attachments/assets/92a9e2ac-a818-4649-aeb4-e35c97044289" />
+
+output pertama yang di tampilkan oleh program ini adalah judul program yang mana berasal dari baris 100-102, dan menu utama yang di dalamnya terdapat bagian antrian dan riwayat
+
+<img width="339" height="118" alt="image" src="https://github.com/user-attachments/assets/2c2428f6-cd2f-4614-94f3-6561d44dec9a" />
+
+ketika memilih pilihan 1 dan memasukkan input 1 maka user akan masuk ke program antrian dan akan memberi tampilan menu yang ada dalam antrian berikutnya yang dapat dipilih oleh user 
+
+<img width="386" height="137" alt="image" src="https://github.com/user-attachments/assets/4789b5d4-b3e2-4ba8-8fb2-85772a94597f" />
+
+pada menu ini ketika user memilih nomor 1 maka program akan meminta user untuk memasukkan nama pasien untuk di tambahkan ke antrian dan akan kembali menampilkan menu dan permintaan inout yang sama
+
+<img width="357" height="145" alt="image" src="https://github.com/user-attachments/assets/0ac52a39-4b73-4352-a442-31ff3b5615e8" />
+
+ketika user memasukkan input angka 2 maka pasien yang berada di barisan terepan akan dilayani dan otomatis akan di masukkan ke riwayat antrian pasien 
+
+<img width="441" height="155" alt="image" src="https://github.com/user-attachments/assets/eaeec0b8-57de-4597-b37c-c6698f03d585" />
+
+ketika user memasukkan angka 3 maka akan menampilkan antrian saat itu
+
+<img width="290" height="183" alt="image" src="https://github.com/user-attachments/assets/37be9721-6888-4ee0-8b37-dc482a3f35d4" />
+
+ketika user memasukkan angka 4 maka program akan keluar dari perulangan program antrian dan kembali ke tampilan menu awal dan meminta user unntuk memilih menu kembali
+
+<img width="273" height="201" alt="image" src="https://github.com/user-attachments/assets/0ce39832-2041-4e70-b7ee-f3b38c6830d0" />
+
+dan ketika user memasukkan angka 2 pada menu ini maka user akan dialihkan ke program antrian pasien, dimana juga akan menampilkan menu yang bisa dipilih oleh user terkait ariwayt tersebut
+
+<img width="360" height="141" alt="image" src="https://github.com/user-attachments/assets/2b0a2b7d-2e47-4eac-9a5b-0651aeba3998" />
+
+dalam program riwayat ketika user memilih nomor 1 maka akan diperlihatkan riwayat antrian pasien pada saat itu, lalu kembali meminta user untuk memilih aksi selanjutnya 
+
+<img width="418" height="152" alt="image" src="https://github.com/user-attachments/assets/589460ee-08b7-45a3-8331-23fdd20c8bbe" />
+
+lalu ketika user memilih nomor 2 maka riwayat antrian terakhir akan di batalkan dan dikembalikan ke antrin paling belakang
+
+<img width="210" height="148" alt="image" src="https://github.com/user-attachments/assets/57f1809e-e421-4bb2-8b7d-ddd789b2e527" />
+
+ketika user memilih nomor 3 maka riwayat pasien pada saat itu akan di kosongkan 
+
+<img width="290" height="185" alt="image" src="https://github.com/user-attachments/assets/71b561e8-44b6-43b0-b544-738f4f003d61" />
+
+ketika user memilih no 4 maka program riwayat akan di hentikan dan user akan di kembalikan ke program atau menu awal, dan meminta input menu utama kembali kepada user
+
+<img width="475" height="161" alt="image" src="https://github.com/user-attachments/assets/a2785f6f-d4ef-499a-a373-7d2c4f5d4506" />
+
+pada menu utama ketika user memilih nomor 3 maka akan menampilkan seluruh antrian saat itu serta riwayat antrian pasien pada saat itu
+
+<img width="480" height="135" alt="image" src="https://github.com/user-attachments/assets/ce2da89c-9cf7-41d4-a04c-8bb505e3fa6d" />
+
+ketika user memilih angka 4 maka program utama akan selsesai 
