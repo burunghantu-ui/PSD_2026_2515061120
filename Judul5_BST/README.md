@@ -250,3 +250,5 @@ ketika user memilih untuk memasukkan pilihan angka  maka program akan selesai
 ketika user memilih untuk memasukkan pilihan angka bukan dari 1-6 maka akan menampilkan bahwa pilihan tidak valid 
 
 # Link Video YouTube
+
+https://youtu.be/hkfmXP6FLHo
