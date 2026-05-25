@@ -39,4 +39,8 @@ baris 26, terdapat perulangan while dimana ketika node current bukan none dan no
 
 baris 30, terdapat fungsi yang berguna untuk menghapus suatu node dimana mencakup baris 31-48
 
-baris 31, 
+baris 31, terdapat percabangan dimana ketika node root itu kosong maka akan mengeksekusi baris 32 yang mana mengembalikan nilai none
+
+baris 33, terdapat percabangan lain dengan kondisi dimana ketika key yang dimasukkan pengguna nanti lebih kecil dari pada nilai node root maka kana mengeksekusi baris 34 yang mana node root bagian kiri akan di hapus dengan memanggil fungsi delete node.
+
+barsi 35 merupakan lanjutan dari percabangan di baris 33, dimana ketika 
