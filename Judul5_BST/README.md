@@ -217,6 +217,36 @@ baris 181, merupakan lanjutan kondisi dimana ketika pilih user tenyata sama tida
 baris 184-185 merupan pemanggilan dari fungsi utama 
 
 # Output
+<img width="820" height="228" alt="image" src="https://github.com/user-attachments/assets/4d87be91-6dbd-45af-9529-bb84d65b4de1" />
 
+Output pertama yang ditampilakn program ketika pertama kali di jalankan sekaligus meminta input user
+
+<img width="294" height="126" alt="image" src="https://github.com/user-attachments/assets/0a806824-c4a7-408a-bfc7-54a31330bcf6" />
+
+ketika user mesaukkan angka  1 di pilhan maka akan diminta untuk memasukkan nomor antrian setelahnya program akan menampilkan bahwa nomor tersebut berhasil di simpan
+
+<img width="241" height="120" alt="image" src="https://github.com/user-attachments/assets/515d8fd6-0ad2-42d5-a852-1734c88d928a" />
+
+ketika user memilih untuk memasukkan pilihan 2 maka akan dimintai untuk  memasukkan nilai yang ingin di cek nomor setelahnya oleh user selanjutnya akan di tampilkan nilai tersebut
+
+<img width="262" height="100" alt="image" src="https://github.com/user-attachments/assets/07a147d6-369d-41e8-bdb7-8470d80b5903" />
+
+ketika user memasukkan angka 3 sebagai pilihan maka kan dimintai untuk  memasukkan nilai yang ingin di cek nomor sebelum angka yang di cari oleh user selanjutnya akan di tampilkan nilai tersebut
+
+<img width="319" height="99" alt="image" src="https://github.com/user-attachments/assets/763723f8-b12d-420a-beb6-82cdcb1eefc0" />
+
+ketika user memilih untuk memasukkan pilihan angka 4 maka akan dimintai untuk  memasukkan nilai yang ingin di hapus selanjutnya akan di tampilkan nilai tersebut telah terhapus dari binary tree
+
+<img width="441" height="99" alt="image" src="https://github.com/user-attachments/assets/766db4db-aded-4223-88f4-8fd573fa559b" />
+
+ketika user memilih untuk memasukkan pilihan angka 5 maka akan menampilkan level order atau menampilkan urutan binary tree dari atas ke bawah 
+
+<img width="189" height="91" alt="image" src="https://github.com/user-attachments/assets/ad5002a4-1cc4-4ce4-87ba-3a5e229dc8bc" />
+
+ketika user memilih untuk memasukkan pilihan angka  maka program akan selesai
+
+<img width="287" height="79" alt="image" src="https://github.com/user-attachments/assets/14d52787-e663-4e0c-a374-e36390508c5c" />
+
+ketika user memilih untuk memasukkan pilihan angka bukan dari 1-6 maka akan menampilkan bahwa pilihan tidak valid 
 
 # Link Video YouTube
