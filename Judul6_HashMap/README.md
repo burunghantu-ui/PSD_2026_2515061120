@@ -99,7 +99,7 @@ baris 66, akan menampilkan "Isi Hash Table (Open Addressing, Linear Probing):"
 
 baris 67, terdapat perulanagn for yang mencakup baris 68-74
 
-baris 68, akan menampilkan urutan antrian pada daftar pasien atau table
+baris 68, akan menampilkan urutan antrian pada daftar pasien atau table dengan penambahan +1 untuk menghindari antrian 0
 
 baris 69, terdapat percabangan dengan kondisi dimana jika status data pada indeks ke i table sama dengan empty atau kosong maka akan mengekseskusi baris 70 yang mana akan menampilkan empty
 
@@ -107,3 +107,82 @@ baris 71, merupakan lanjutan percabangan sebelumnya dengan kondisi jika status d
 
 baris 73, merupakan lanjutan dari percabangan sebelumnya dimana jika tidak ada kondisi yang terpenuhi sebelumnya maka akan mengeksekusi baris 74 yang mana akan menampilkan key serta value data dari indeks ke i daftar table
 
+<img width="443" height="144" alt="image" src="https://github.com/user-attachments/assets/fae02616-425b-4072-b4bb-3b8b59499ccc" />
+
+baris 76, terdapat fungsi menu mencakup baris 77-81 yang mana berfungsi untuk menampilkan menu berupa apa saja yang user dapat lakukan dengan program ini
+
+<img width="520" height="127" alt="image" src="https://github.com/user-attachments/assets/1edd1145-72bb-4a9c-bb4e-bce6f1fb7e50" />
+
+pada baris 84 terdapat fungsi main yang didalamnya meruoakan logika inti program, dimana mencakup baris 85-145
+
+baris 85-88 merupakan memasukkan data pasien ke dalam daftar dengan memanggil fungsi insert
+
+<img width="773" height="80" alt="image" src="https://github.com/user-attachments/assets/889e59ff-0d71-4e25-a002-f5eb07b1264a" />
+
+baris 90-92 merupakan judul program yang di guakan untuk  mempercantik program saat di jalankan
+
+<img width="498" height="268" alt="image" src="https://github.com/user-attachments/assets/5de19747-9020-46f3-aa02-bce964ed8612" />
+
+baris 94 terdapat perulangan while yang mana akan terus mengeksekusi baris 95-145 sampai kondisi break terpenuhi
+
+baris 95, terdapat pemanggilan menu yang mana akan menampilkan pilihan aksi ke pada user
+
+baris 96 terdapat perulangan while yang digunakan untuk mengulangi permintaan input setiap kali user salam memasukkan tipe data input di baris 98
+
+baris 97 terdapat exception handling try yang digunakan untuk memastikan input pil user pada baris 98 berupa angka, ketika user memasukkan input angka maka selanjutanya baris 99 akan dieksekusi yang mana akan menghentikan perulangan di baris 96 dan masuk ke kode selanjutnya di baris 103, sebaliknya jika user memasukkan data selain integer atau angka maka akan mengeksekusi baris 100 dan menampilkan baris 101 lalu meminta kembali input user di baris 98
+
+baris 103, merupakan percabangan dengan kondisi dimana jika input pil yang di masukkan user bernilai sama dengan 1 maka akan mengeksekusi baris 104 yang memanggil fungsi display dan menampilkan daftar informasi seluruh indeks pada daftar
+
+<img width="844" height="221" alt="image" src="https://github.com/user-attachments/assets/ba46523a-bc38-4f39-b738-b596f4efa885" />
+
+baris 105 merupakan lanjutan dari percabangan sebelumnya dimana jika kondisi berupa  pil bernilai sama dengan 2 terpenuhi maka akan diekseksui baris 106-113
+
+baris 106, terdapat perulangan while yang di gunakan untuk memastikan except handling dapat beroperasi dengan lancar
+
+baris 107, terdapat exception handling try yang digunakan untuk memastikan input kode user pada baris 108 berupa angka, ketika user memasukkan input angka maka selanjutanya baris 109 akan dieksekusi yang mana akan menghentikan perulangan di baris 106 dan masuk ke kode selanjutnya di baris 112, sebaliknya jika user memasukkan data selain integer atau angka maka akan mengeksekusi baris 110 dan menampilkan baris 111 lalu meminta kembali input user di baris 108
+
+baris 112, terdapat variabel nilai yang akan meminta user memasukkan value dari kode atau key yang akan di tambahkan ke dalam daftar
+
+baris 113, merupakan penambahan informasi pasien ke daftar dengan memanggil fungsi insert dan memasukkan kode atau key dan value atau nilai yang telah di masukkan user sebelummnya
+
+<img width="794" height="299" alt="image" src="https://github.com/user-attachments/assets/431eb916-d59f-424e-b466-4a3ba62bf80a" />
+
+baris 115 merupakan lanjutan dari percabangan sebelumnya dimana jika kondisi berupa  pil bernilai sama dengan 3 terpenuhi maka akan mengekseksui baris 116-126
+
+baris 116, terdapat perulangan while yang di gunakan untuk memastikan except handling dapat beroperasi dengan lancar
+
+baris 117, terdapat exception handling try yang digunakan untuk memastikan input cari user pada baris 118 berupa angka, ketika user memasukkan input angka maka selanjutanya baris 119 akan dieksekusi yang mana akan menghentikan perulangan di baris 116 dan masuk ke kode selanjutnya di baris 122, sebaliknya jika user memasukkan data selain integer atau angka maka akan mengeksekusi baris 120 dan menampilkan baris 121 lalu meminta kembali input user di baris 118
+
+baris 122, terdapat variabel hasil yang akan menyimpan hasil dari pemanggilan fungsi search
+
+baris 123, terdapat percabangan dengan kondisi dimana jika hasil tidak kosong maka akan mengeksekusi baros 124 yang akan menampilkan informasi pasien
+
+baris 125 adalah percabangan lanjutan dimana ketika kondisi pada baris 123 tidak terpenuhi maka akan mengeksekusi baris 126 yang menyatakan bahwa  pasien tidak di temukan
+
+<img width="797" height="313" alt="image" src="https://github.com/user-attachments/assets/d576b111-af03-4f1d-8194-2a8d9c732c41" />
+
+baris 128 merupakan lanjutan dari percabangan sebelumnya dimana jika kondisi berupa pil bernilai sama dengan 4 terpenuhi maka akan mengekseksui baris 129-140
+
+baris 129, terdapat perulangan while yang di gunakan untuk memastikan except handling dapat beroperasi dengan lancar
+
+baris 130, terdapat exception handling try yang digunakan untuk memastikan input cari user pada baris 131 berupa angka, ketika user memasukkan input angka maka selanjutanya baris 132 akan dieksekusi yang mana akan menghentikan perulangan di baris 129 dan masuk ke kode selanjutnya di baris 135, sebaliknya jika user memasukkan data selain integer atau angka maka akan mengeksekusi baris 133 dan menampilkan baris 134 lalu meminta kembali input user di baris 131
+
+baris 135, terdapat variabel bool dan hasil yang mana akan menampung hasil pengembalian nilai degan memanggil fuungsi search
+
+baris 136, terdapat percabangan di mana jika bool bernilai True maka akan mengekseskui baris 137 yang mana akan mengatakan bahwa data dengan key yang di masukkan user telah berhasil di hapus
+
+baris 138 merupakan lanjutan percabangan di baris sebelumnya di mana jika kondisi sebelumnya tidak terpenuhi maka akan mengeksekusi baris 139 yang akan menyatakan bahwa data dengan key yang di cari tidak tersedia
+
+baris 140, merupakan pemanggilan fungsi remove_key yang berguna untuk benar benar menghapus data sesuai dengan key yang di masukkan user.
+
+<img width="528" height="106" alt="image" src="https://github.com/user-attachments/assets/e781eb05-bdab-42af-9595-564ee261cea1" />
+
+baris 142 merupakan lanjutan dari percabangan sebelumnya dimana jika kondisi berupa pil bernilai sama dengan 5 terpenuhi maka akan mengekseksui baris 143 yang mana akan menghentikan perulangan while di baris ke 94
+
+baris 144 merupakan lanjutan percabangan di baris sebelumnya di mana jika kondisi sebelumnya yaitu pil =1 /2/3/4/5tidak terpenuhi maka akan mengeksekusi baris 139 yang akan menyatakan bahwa data dengan key yang di cari tidak tersedia maka baris 145 akan di eksekusi dan  kemmabli meminyta user  memasukkan angka sesuai dengan yang telah diinformasikan di barisan pertama kode ini
+
+<img width="326" height="58" alt="image" src="https://github.com/user-attachments/assets/cec82efb-1113-4272-9725-20a915132529" />
+
+baris 147-148 merupkan pemanggilan dari fungsi utama
+
+# OutPut
