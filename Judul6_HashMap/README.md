@@ -65,3 +65,45 @@ baris 42, merupakan pergantian nilai key pada indeks ke first_deleted dengan nil
 
 baris 46 merupakan pengembalian nilai false ketika tidak ada pengembalian nilai yang di lakukan sebelumnya.
 
+<img width="891" height="220" alt="image" src="https://github.com/user-attachments/assets/8722ef48-3965-42ce-893f-af29986d86e7" />
+
+baris 48, terdapat fungsi search yang akan di gunakan untuk mencari informasi psaien berdasarkan kode unik dimana mencakup baris 49-56
+
+baris 49, terdapat variabel idx yang akan di gunakan untuk menyimpan hasil nilai function hash dengan memanggil fungsi tersebut
+
+baris  50, terdapat perulangan for yang akan melakukan looping sebanyak jumlah size daftar pasien (yaitu 10), dimana perulangan ini mencakup baris 51-56
+
+baris 51, terdapat variabel i yang menyimpan nilai yang digunakan untuk memastikan tidak keluar dari jumlah pengecekan
+
+baris 52, terdapat percabangan dengan kondisi dimana jika  indeks ke i pada table kosong maka akan mengembalikan nilai false dan none (53)
+
+baris 54, terdapat percabangan dengan kondisi jika data pada indeks ke i pada table daftar telah terisi data dan nilai key nya sama dengan yang dimasukkan user maka akan mengeksekusi baris 55 yang akan mengembalikan nilai True dan isi data indeks ke i dari tabel daftar
+
+baris 56, terdapat pengembalian nilai false dan none yang akan dieksekusi ketika sebelumnya pada fungsi ini belum melakukan pengembalian nilai.
+
+<img width="490" height="147" alt="image" src="https://github.com/user-attachments/assets/2bf68c84-d724-4531-8627-44317fba5f3c" />
+
+baris 58, terdapat fungsi remove untuk menghapus data pada indeks tertentu yang mana fungsi ini mencakup baris 59-63
+
+baris 59, terdapat variabel bool dan entry yang akan menampung pengembalian nilai dari fungsi search yang di panggil
+
+baris 60 terdapat percabangan dimana jika entry bernilai none dan bool bernilai false maka akan mengeksekusi baris 61 yang akan mengembalikan nilai False
+
+baris 62, merupakan pendefinisian bahwa data entry tekah dihapus lalu pada baris 63 akan di lakukan pengembalian nilai True
+
+<img width="731" height="246" alt="image" src="https://github.com/user-attachments/assets/492e9e6b-8f20-4603-8998-d5dfccb24dfe" />
+
+baris 65, terdapat fungsi display yang berguna untuk menampilkan keseluruhan daftar, dimana fungsi ini mencakup baris 66-74
+
+baris 66, akan menampilkan "Isi Hash Table (Open Addressing, Linear Probing):"
+
+baris 67, terdapat perulanagn for yang mencakup baris 68-74
+
+baris 68, akan menampilkan urutan antrian pada daftar pasien atau table
+
+baris 69, terdapat percabangan dengan kondisi dimana jika status data pada indeks ke i table sama dengan empty atau kosong maka akan mengekseskusi baris 70 yang mana akan menampilkan empty
+
+baris 71, merupakan lanjutan percabangan sebelumnya dengan kondisi jika status data pada indeks ke i di daftar tabel sama dengan deleted atau telah dihapus sebelumya maka akan mengeksesuki baris 72 yang akan menampilkan "DELETED"
+
+baris 73, merupakan lanjutan dari percabangan sebelumnya dimana jika tidak ada kondisi yang terpenuhi sebelumnya maka akan mengeksekusi baris 74 yang mana akan menampilkan key serta value data dari indeks ke i daftar table
+
