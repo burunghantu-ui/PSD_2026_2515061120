@@ -91,11 +91,11 @@ baris 60 terdapat percabangan dimana jika entry bernilai none dan bool bernilai 
 
 baris 62, merupakan pendefinisian bahwa data entry tekah dihapus lalu pada baris 63 akan di lakukan pengembalian nilai True
 
-<img width="731" height="246" alt="image" src="https://github.com/user-attachments/assets/492e9e6b-8f20-4603-8998-d5dfccb24dfe" />
+<img width="730" height="245" alt="image" src="https://github.com/user-attachments/assets/af86c902-e0cd-48ba-b858-62c7f70ae26d" />
 
 baris 65, terdapat fungsi display yang berguna untuk menampilkan keseluruhan daftar, dimana fungsi ini mencakup baris 66-74
 
-baris 66, akan menampilkan "Isi Hash Table (Open Addressing, Linear Probing):"
+baris 66, akan menampilkan "daftar informasi antrian pasien"
 
 baris 67, terdapat perulanagn for yang mencakup baris 68-74
 
@@ -159,7 +159,7 @@ baris 123, terdapat percabangan dengan kondisi dimana jika hasil tidak kosong ma
 
 baris 125 adalah percabangan lanjutan dimana ketika kondisi pada baris 123 tidak terpenuhi maka akan mengeksekusi baris 126 yang menyatakan bahwa  pasien tidak di temukan
 
-<img width="797" height="313" alt="image" src="https://github.com/user-attachments/assets/d576b111-af03-4f1d-8194-2a8d9c732c41" />
+<img width="784" height="315" alt="image" src="https://github.com/user-attachments/assets/0a25e8e6-8e41-45ee-9a58-78571a477fd2" />
 
 baris 128 merupakan lanjutan dari percabangan sebelumnya dimana jika kondisi berupa pil bernilai sama dengan 4 terpenuhi maka akan mengekseksui baris 129-140
 
@@ -186,3 +186,38 @@ baris 144 merupakan lanjutan percabangan di baris sebelumnya di mana jika kondis
 baris 147-148 merupkan pemanggilan dari fungsi utama
 
 # OutPut
+
+<img width="541" height="225" alt="image" src="https://github.com/user-attachments/assets/594d247c-caf0-49c2-8e2e-327919bb4991" />
+
+saat program pertama kali dijalankan, program akan menampilkan judul program sekaligus menu yang dapat dipilih oleh user, selanjutnya program akan meminta user memasukkan pilihan berdasarkan menu yang di tampilkan
+
+<img width="332" height="314" alt="image" src="https://github.com/user-attachments/assets/6471f2bd-75cf-4ec2-b133-5c09a54140b8" />
+
+selanjutnya ketikda user memasukkan angka 1 maka program akan menampilkan daftar antrian pasien baik yang telah terisi, koson, maupun telah di hapus
+
+<img width="263" height="138" alt="image" src="https://github.com/user-attachments/assets/ed9f6453-c0a0-4e3c-b8a1-c8e4c2285a44" />
+
+selanjutnya program akan kembali menampilkan tampilan menu dan permintaan input pilihan kepada user
+
+<img width="654" height="192" alt="image" src="https://github.com/user-attachments/assets/336876fe-a37d-419a-9e5b-8ae4e9eaecca" />
+
+selanjutnyta ketika user memasukkan angka 2, maka program akan meminta kode unik pasien yang ingin ditambahakan dimmana selanjutnya user akan diminta memasukkan nama sekaligus penyakit yang diderita oleh user, setelah user memasukkan kode, nama, serta penyakit user maka program akan kembali menampilkan menu serta permintaan input kepada user
+
+<img width="408" height="114" alt="image" src="https://github.com/user-attachments/assets/46223b89-9db9-4be5-a9d0-4a9a0820db8b" />
+ketika user memasukkan angka 3 maka program akan meminta kode unik dari pasien yang ingin di cari, setelahnya ketika pasien dengan kode unik yang dimasukkan terdapat dalam daftar maka program akan menampilkan informasi terkait pasien
+
+<img width="436" height="76" alt="image" src="https://github.com/user-attachments/assets/8382bcb4-0e71-4a74-8030-3d883396e1d1" />
+
+sebaliknya jika kode unik tidak ditemukan pada daftar maka  program akan menampilkan bahwa pasien dengan kode tersebut tidak di temukan
+
+<img width="446" height="98" alt="image" src="https://github.com/user-attachments/assets/58c226c0-24da-49f8-95e6-e31ccd0952ad" />
+
+ketika user memasukkan angka 4 pada pilihan maka program akan meminta kode unik pasien yang ingin di hapus, selanjutnya program akan memberitahukan bahwa pasien dengan kode tersebut berhasil dihapus
+
+<img width="466" height="55" alt="image" src="https://github.com/user-attachments/assets/914036c3-2d91-4fd4-85fe-f050093d29c7" />
+
+sebaliknya jika user memasukkan kode pasien yang tidak terdapat pada daftar maka program akan menampilkan bahwa pasien dengan kode unik tersebut tidak tersedia
+
+<img width="264" height="141" alt="image" src="https://github.com/user-attachments/assets/4fed10e3-8c6c-4eb2-9e11-12fd3aede5fa" />
+
+ketika user memasukkan angka 5 maka program akan selesai dan menghentikan perulangan pada program
