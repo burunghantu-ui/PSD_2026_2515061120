@@ -204,6 +204,7 @@ selanjutnya program akan kembali menampilkan tampilan menu dan permintaan input 
 selanjutnyta ketika user memasukkan angka 2, maka program akan meminta kode unik pasien yang ingin ditambahakan dimmana selanjutnya user akan diminta memasukkan nama sekaligus penyakit yang diderita oleh user, setelah user memasukkan kode, nama, serta penyakit user maka program akan kembali menampilkan menu serta permintaan input kepada user
 
 <img width="408" height="114" alt="image" src="https://github.com/user-attachments/assets/46223b89-9db9-4be5-a9d0-4a9a0820db8b" />
+
 ketika user memasukkan angka 3 maka program akan meminta kode unik dari pasien yang ingin di cari, setelahnya ketika pasien dengan kode unik yang dimasukkan terdapat dalam daftar maka program akan menampilkan informasi terkait pasien
 
 <img width="436" height="76" alt="image" src="https://github.com/user-attachments/assets/8382bcb4-0e71-4a74-8030-3d883396e1d1" />
